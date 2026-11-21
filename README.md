@@ -1,4 +1,4 @@
-# Estoy lista - Lizzie
+# Estoy lista_RA_Camila Collazos
 
 Experiencia de realidad aumentada creada con Zence Inverse Reality.
 
