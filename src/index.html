@@ -115,6 +115,14 @@
     }
     #inre-espera .inre-pista { font-size: 14px; line-height: 1.6; margin: 0; max-width: 34ch; color: rgba(242, 244, 248, 0.72); }
     #inre-espera .inre-aviso { overflow: hidden; max-height: 0; opacity: 0; margin: 0; }
+    /*
+     * iOS: el aviso de sensores de movimiento del motor (permissions-helper.ts) nace
+     * con z-index 888, debajo de la pantalla de espera. Sin esto el iPhone se queda
+     * en «Cargando experiencia…» para siempre: el botón que hay que tocar está tapado.
+     */
+    .prompt-box-8w, .immersive-enter-button-8w, .immersive-background-8w {
+      z-index: 2147483647 !important;
+    }
   </style>
 
   <script crossorigin="anonymous" src="./external/runtime/runtime.js"></script>
@@ -130,10 +138,10 @@
       <div></div><div></div><div></div><div></div><div></div><div></div>
     </div>
   </div>
-  <div class="inre-marca" aria-label="Zence Inverse Reality Beta 1.0">
+  <div class="inre-marca" aria-label="Zence Inverse Reality Beta 1.0.1">
     <span class="inre-marca-zence">Zence</span>
     <span class="inre-marca-sub">Inverse Reality</span>
-    <span class="inre-marca-beta">Beta 1.0</span>
+    <span class="inre-marca-beta">Beta 1.0.1</span>
   </div>
   <p class="inre-titulo">Cargando experiencia…</p>
   <p class="inre-pista"></p>

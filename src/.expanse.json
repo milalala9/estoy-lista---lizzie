@@ -1,21 +1,21 @@
 {
   "entrySpaceId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
   "objects": {
-    "5795523a-bb4b-4219-9467-54b21de60e6d": {
+    "32940d50-8abb-4846-bd4c-237fa1102849": {
       "components": {
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
           "parameters": {
-            "cubo": 0.589,
+            "cubo": 0.632,
             "demora": 0,
             "esGltf": false,
             "esTextura": true,
             "esVideo": true
           }
         },
-        "a50248dc-feb3-4c2e-92a7-afccc7022c61": {
-          "id": "a50248dc-feb3-4c2e-92a7-afccc7022c61",
+        "c27b36f4-5781-4bff-9812-85343f8f945a": {
+          "id": "c27b36f4-5781-4bff-9812-85343f8f945a",
           "name": "inre-gif",
           "parameters": {
             "alphaTest": 0
@@ -28,7 +28,7 @@
         "height": 1,
         "depth": 1
       },
-      "id": "5795523a-bb4b-4219-9467-54b21de60e6d",
+      "id": "32940d50-8abb-4846-bd4c-237fa1102849",
       "material": {
         "type": "basic",
         "color": "#ffffff",
@@ -36,28 +36,28 @@
         "metalness": 0,
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/gif_pag_2.gif"
+          "asset": "assets/gig_pag_1.gif"
         },
-        "inreMaterial": "gif_pag_2 2"
+        "inreMaterial": "gig_pag_1"
       },
       "name": "Cubo",
-      "order": 0.5458864510772895,
-      "parentId": "a3c7e29d-50c4-480b-9a0d-1b806277673e",
+      "order": 0.043480579625492566,
+      "parentId": "52cca80a-a713-4dfa-8f47-7bd60c954120",
       "position": [
         0,
-        -0.007,
-        0.391
+        -5.551115123125783e-17,
+        0.47200000000000003
       ],
       "rotation": [
-        0.7071067811865475,
+        0.7071067811865476,
         0,
         0,
-        0.7071067811865475
+        0.7071067811865476
       ],
       "scale": [
-        0.813,
-        0.623,
-        0.644
+        0.843,
+        0.664,
+        0.724
       ],
       "shadow": {
         "castShadow": true,
@@ -68,15 +68,15 @@
         "paused": false
       }
     },
-    "a3c7e29d-50c4-480b-9a0d-1b806277673e": {
+    "52cca80a-a713-4dfa-8f47-7bd60c954120": {
       "components": {},
       "geometry": null,
-      "id": "a3c7e29d-50c4-480b-9a0d-1b806277673e",
+      "id": "52cca80a-a713-4dfa-8f47-7bd60c954120",
       "imageTarget": {
-        "name": "WhatsApp_Image_2026-11-20_at_7_20_57_PM"
+        "name": "WhatsApp_Image_2026-11-20_at_7_20_58_PM_2"
       },
       "material": null,
-      "name": "Marcador · WhatsApp_Image_2026-11-20_at_7_20_57_PM",
+      "name": "Marcador · WhatsApp_Image_2026-11-20_at_7_20_58_PM_2",
       "order": 3.5,
       "parentId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
       "position": [
