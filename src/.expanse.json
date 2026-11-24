@@ -1,82 +1,15 @@
 {
   "entrySpaceId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
   "objects": {
-    "32940d50-8abb-4846-bd4c-237fa1102849": {
-      "components": {
-        "__inre_aparicion__": {
-          "id": "__inre_aparicion__",
-          "name": "inre-aparicion",
-          "parameters": {
-            "cubo": 0.632,
-            "demora": 0,
-            "esGltf": false,
-            "esTextura": true,
-            "esVideo": true
-          }
-        },
-        "c27b36f4-5781-4bff-9812-85343f8f945a": {
-          "id": "c27b36f4-5781-4bff-9812-85343f8f945a",
-          "name": "inre-gif",
-          "parameters": {
-            "alphaTest": 0
-          }
-        }
-      },
-      "geometry": {
-        "type": "box",
-        "width": 1,
-        "height": 1,
-        "depth": 1
-      },
-      "id": "32940d50-8abb-4846-bd4c-237fa1102849",
-      "material": {
-        "type": "basic",
-        "color": "#ffffff",
-        "roughness": 0.85,
-        "metalness": 0,
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/gig_pag_1.gif"
-        },
-        "inreMaterial": "gig_pag_1"
-      },
-      "name": "Cubo",
-      "order": 0.043480579625492566,
-      "parentId": "52cca80a-a713-4dfa-8f47-7bd60c954120",
-      "position": [
-        0,
-        -5.551115123125783e-17,
-        0.47200000000000003
-      ],
-      "rotation": [
-        0.7071067811865476,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        0.843,
-        0.664,
-        0.724
-      ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      },
-      "videoControls": {
-        "loop": true,
-        "paused": false
-      }
-    },
-    "52cca80a-a713-4dfa-8f47-7bd60c954120": {
+    "695d40a8-cc56-4900-ba01-ad3c5559a394": {
       "components": {},
       "geometry": null,
-      "id": "52cca80a-a713-4dfa-8f47-7bd60c954120",
+      "id": "695d40a8-cc56-4900-ba01-ad3c5559a394",
       "imageTarget": {
-        "name": "WhatsApp_Image_2026-11-20_at_7_20_58_PM_2"
+        "name": "WhatsApp_Image_2026-11-20_at_7_20_57_PM_1"
       },
       "material": null,
-      "name": "Marcador · WhatsApp_Image_2026-11-20_at_7_20_58_PM_2",
+      "name": "Marcador · WhatsApp_Image_2026-11-20_at_7_20_57_PM_1",
       "order": 3.5,
       "parentId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
       "position": [
@@ -95,6 +28,73 @@
         1,
         1
       ]
+    },
+    "a529b546-a7d9-4bd9-bb4a-288bc4477b03": {
+      "components": {
+        "40e36794-0665-40f8-9435-c05abad3cd59": {
+          "id": "40e36794-0665-40f8-9435-c05abad3cd59",
+          "name": "inre-gif",
+          "parameters": {
+            "alphaTest": 0
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.59,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "a529b546-a7d9-4bd9-bb4a-288bc4477b03",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/gif_pag_3.gif"
+        },
+        "inreMaterial": "gif_pag_3"
+      },
+      "name": "Cubo",
+      "order": 0.19593904807017204,
+      "parentId": "695d40a8-cc56-4900-ba01-ad3c5559a394",
+      "position": [
+        0,
+        0,
+        0.401
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.892,
+        0.594,
+        0.596
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
     },
     "aebe826b-811d-4f0d-b0af-d73c4ed386fa": {
       "components": {},
